@@ -1,0 +1,30 @@
+﻿
+.token {
+    margin: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 3px;
+    border: 1px solid #20cbea;
+    display: inline-block;
+    background-color: #dff7ff;
+    cursor: default;
+}
+
+    .token.selected {
+        background-color: #007aff;
+        border-color: #007aff;
+        color: white;
+    }
+
+.x {
+    background-image: url('https://dt8kf6553cww8.cloudfront.net/static/images/tokens/token_close.png');
+    background-position: 5px;
+    background-repeat: no-repeat;
+    padding: 0px 7px 0px 4px;
+    cursor: pointer;
+}
+
+.input {
+    border: solid 1px #ccc;
+    border-radius: 4px;
+}
